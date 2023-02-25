@@ -1,0 +1,166 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.clock-dial{
+    margin: 200px auto;
+    width: 500px;
+    height: 500px;
+    border: 20px solid #c84687;
+    border-radius: 50%;
+    position: relative;
+}
+.img-pic{
+    position: absolute;
+    border-radius: 50%;
+    margin: -7px auto;
+    width: 469px;
+    height: 469px;
+    z-index: -1;
+    opacity: 2;
+    
+}
+.point {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 220px; 
+    left: 230px;
+}
+.hour {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+}
+
+.hour1{
+    top: 40px;
+    right: 120px;
+}
+.hour2{
+    top: 125px;
+    right: 45px;
+}
+.hour3{
+    top: 209px;
+    right: 10px;
+}
+.hour4{
+    top: 305px;
+    right: 45px;
+}
+.hour5{
+    top: 395px;
+    right: 115px;
+}
+.hour6{
+    bottom: 10px;
+    left: 225px;
+}
+.hour7{
+    top: 395px;
+    left: 115px;
+}
+.hour8{
+    top: 305px;
+    left: 45px;
+}
+.hour9{
+    top: 209px;
+    left: 10px;
+}
+.hour10{
+    top: 125px;
+    left: 37px;
+}
+.hour11{
+    top: 40px;
+    left: 120px;
+}
+.hour12{
+    top: 10px;
+    left: 225px;
+}
+.minute-hand-w{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 41px;
+    left: 90px;
+    border-radius: 50%;
+} 
+
+
+.mimute-hand{
+    position: relative;
+}
+.minute-hand .hand{
+    width: 4px;
+    height: 177px;
+    background-color: black;
+    position: absolute;
+    z-index: 100;
+    left: 184px;
+}
+.minute-hand .arrow{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 179px;
+    top: -10px;
+   
+}
+.hour-minute-hand .hand{
+    width: 5px;
+    height: 147px;
+    background-color: black;
+    position: absolute;
+    z-index: 100;
+    left: 148px;
+}
+.hour-minute-hand-w{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 81px;
+    left: 90px;
+    border-radius: 50%;
+} 
+.hour-imute-hand{
+    position: relative;
+}
+.hour-minute-hand .arrow{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 145px;
+    top: -10px;
+   
+}
+.sec-minute-hand-w{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 82px;
+    left: 90px;
+    border-radius: 50%;
+} 
+.sec-minute-hand{
+    position: relative;
+}
+.sec-minute-hand .hand{
+    width: 1px;
+    height: 137px;
+    background-color: rgb(255, 254, 254);
+    position: absolute;
+    z-index: 100;
+    left: 148px;
+}
